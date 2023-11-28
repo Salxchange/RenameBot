@@ -5,8 +5,8 @@ try:
 except ImportError:
     class Config:
         DATABASE_URL = [str, "mongodb+srv://ROKU:ROKU@cluster0.nxjre0s.mongodb.net/?retryWrites=true&w=majority"]
-        API_HASH = [str, "82dcb7e30b20c4e3129c152a53cddb95"]
-        API_ID = [int,"17170223"]
+        API_HASH = [str, "792b58c18cfc6b59af09fb41f78a008c"]
+        API_ID = [int,"23532430"]
         BOT_TOKEN = [str, "6835749558:AAEBQQ7jZKlHdnEjpkZV3Lwsmt3nkFqZOwA"]
         COMPLETED_STR = [str, "▰"]
         REMAINING_STR = [str, "▱"]
